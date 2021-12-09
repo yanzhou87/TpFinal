@@ -1,0 +1,65 @@
+<section >
+<!--nav à gauche-->
+    <div class="row "  >
+      
+      <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 text-light bg-info vh-100 fixed-top sidebar" >
+        <nav >
+          <h4 class="text-center my-3 "><i [routerLink]="['']" routerLinkActive="active" class='fas fa-campground fa-4x'></i></h4>
+          <ul class="nav nav-pills flex-column" >
+            <li class="my-2">
+              <div href="#" class="nav-link text-white ">
+                
+              </div>
+            </li>
+            <li class="my-2" >
+              <button class="nav-link text-white btn">
+                <i class="fas fa-book-open fa-2x text-light mx-3" ></i>
+                <a [routerLink]="['/tutoriel']" routerLinkActive="active" class="lead text-white" >Tutoriel</a> 
+              </button>
+            </li>
+            <li class="my-2">
+              <div href="#" class="nav-link text-white ">
+                
+              </div>
+            </li>
+            <li class="my-3" >
+              <button href="#" class="nav-link text-white">
+                <i class="fas fa-mountain fa-2x text-light mx-3"></i>
+                <a [routerLink]="['/recettes']" routerLinkActive="active" class="lead text-white" >Recettes</a>
+              </button>
+            </li>
+            <li class="my-2">
+              <button href="#" class="nav-link text-white ">
+                
+              </button>
+            </li>
+            <li class="my-2">
+              <button href="#" class="nav-link text-white">
+                <i class="fas fa-gamepad fa-2x text-light mx-3"></i>
+                <a [routerLink]="['/jeux']" routerLinkActive="active" class="lead text-white">Jeux</a>
+              </button>
+            </li>
+            <li class="my-2">
+              <div href="#" class="nav-link text-white ">
+                
+              </div>
+            </li>
+            <li class="my-2">
+              <button href="#" class="nav-link text-white">
+                <i class="fas fa-comment-alt fa-2x text-light mx-3"></i>
+                <a [routerLink]="['/contact']" routerLinkActive="active" class="lead text-white" >Contact</a>
+              </button>
+            </li>
+      
+          </ul>
+        </nav>
+      </div>
+     <router-outlet></router-outlet>
+     
+    </div>
+ <!--nav à gouche fin-->
+
+</section>
+
+
+

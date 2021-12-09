@@ -1,0 +1,52 @@
+<nav>
+    <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 "></div>
+        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-9">
+            <div class="row bg-info">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 mt-2">
+                    <h2 class="text-white m-3">Connecter</h2>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+        
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1  mt-2">
+                    <button class=" btn mt-2 rounded-circle text-white">X</button>
+                </div>
+        
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1  mt-2">
+                    <button class=" btn mt-2 rounded-circle text-white">X</button>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1  mt-2">
+                    <button class=" btn mt-2 rounded-circle text-white">X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</nav>
+
+<div class="container">
+    <div class="row m-5"></div>
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8  border-warning rounded-3 ">
+           
+          
+            <h3>Sign in</h3>
+            <hr />
+            <div class="my-3 form-group">
+                <label for="name" >Name</label>
+                <input class="form-control" type="text" id="name" required  [(ngModel)]="name" name="name">
+              </div>
+                <div class="my-3 form-group">
+                    <label for="password">Mot de pass</label>
+                    <input type="password" class="form-control" id="password" required  [(ngModel)]="password" name="password">
+                  </div>
+                 
+          <button class="btn btn-info" type="submit" (click)="connecterMonCompte()" >connecter</button>
+          
+                
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2"></div>
+    </div>
+</div>

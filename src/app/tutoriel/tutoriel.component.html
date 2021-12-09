@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3"></div>
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+            <div class="row m-5"></div>
+            <mat-list>
+                <mat-list-item class="m-5"><button class="btn btn-lg" (click)="entrerT1()"><mat-icon class="mx-3" aria-hidden="false" aria-label="home icon">home</mat-icon>花样滑冰</button></mat-list-item>
+                <mat-divider class="m-5"></mat-divider>
+                <mat-list-item class="m-5"><button class="btn btn-lg " (click)="entrerT2()"><mat-icon class="mx-3" aria-hidden="false" aria-label="home icon">home</mat-icon>Patinage artistique</button></mat-list-item>
+                <mat-divider class="m-5"></mat-divider>
+                <mat-list-item class="m-5"><button class="btn btn-lg" (click)="entrerT3()"><mat-icon class="mx-3" aria-hidden="false" aria-label="home icon">home</mat-icon>Figure skating</button></mat-list-item>
+              </mat-list> 
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+            <div class="row m-5"></div>
+            <div class="row m-5"></div>
+            <div class="border border-warning rounded-3 m-5"><router-outlet></router-outlet></div>
+        </div>
+    </div>
+</div>
+
+
+
+  

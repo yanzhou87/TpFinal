@@ -1,0 +1,16 @@
+
+<div class="row">
+  <div class="col-2">
+
+  </div>
+  <div class="col-10">
+    <div class="topnav" id="myTopnav">
+      <a [routerLink]="['/']"><span style='font-size: 80%'>Home </span></a>
+      <a style="float:right" [routerLink]="['/editnewrecipe']">New Recipe</a>
+    </div>
+    
+  <div id='main_body'> 
+  <router-outlet></router-outlet>
+  </div>
+  </div>
+</div>
